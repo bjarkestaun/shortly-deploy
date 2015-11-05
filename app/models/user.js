@@ -32,17 +32,3 @@ userSchema.pre('save', function(next) {
 
 var User = mongoose.model('User', userSchema);
 module.exports = User;
-
-
-
-// var db = require('../config');
-
-// var User = db.Model.extend({
-//   tableName: 'users',
-//   hasTimestamps: true,
-//   initialize: function(){
-//     this.on('creating', this.hashPassword);
-//   },
-//   },
-// });
-
